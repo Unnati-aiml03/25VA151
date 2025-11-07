@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTOR :CSS COMBINATOR</title>
+    <style>
+      
+      .para:first-letter{
+        color: #F04;
+        font-size: 30px;
+      }
+      .text p{
+        background-color:blueviolet
+      } 
+      ul {
+        list-style:none;
+        display: flex;
+
+      }
+      ul li{
+        margin: 10px;
+        border-right: 1px solid#F04;
+        padding-right: 20px;
+      }
+      ul li:first-child{
+        font-size: 25px;color:aqua;}
+        ul li::first-letter{
+            font-size: 30px;color: #F04;
+        }
+      div+p{
+        font-size:30px;
+        background-color: aquamarine;
+      }
+      a:hover{
+        background-color: rgb(17, 255, 0);
+      }
+      a:visited{
+        background-color: aquamarine;
+      }
+      a:link{
+        background-color: brown;
+      }
+      
+    </style>
+</head>
+<body>
+    <!--first div-->
+    <div class="text">
+        <h1>hello abes</h1>
+        
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis quidem cum dolore, sed exercitationem illo et nulla qui aut dicta magni ipsum omnis ea vero molestias tempore? Eveniet, deserunt! Esse.
+        </p>
+    </div>
+    
+    <ul></ul>
+    <li>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nemo sunt sit aliquam facere deleniti sed doloribus neque aliquid cumque, temporibus optio rerum adipisci. Quae, aspernatur. Sunt ex consequuntur culpa?
+    </p></li>
+    <p>
+        
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat dolor temporibus, voluptatum est eligendi porro! Reiciendis accusamus expedita vel! Fugit veritatis sit unde dolores, quo quod. Ab eaque voluptatum cumque?
+    </p>
+    <a href="">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem aperiam qui rerum ipsa provident facere eius et corporis temporibus, incidunt quod est voluptatibus ex quas atque odio cum quasi tempore?
+        </p>
+    </a>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li> class</li>
+    </ul>
+</body>
+</html>
