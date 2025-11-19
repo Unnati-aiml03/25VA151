@@ -1,0 +1,62 @@
+body{
+    margin: 2px;
+    padding: 0px 1px 0px;
+    background-color:white;
+    background-image:url( "https://tse3.mm.bing.net/th/id/OIP.7duU-wp03zvb6q8ndXPs8QHaDt?cb=ucfimg2ucfimg=1&rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+html,*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    font-style: italic;
+    color: hwb(206 4% 11%);
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 1px 0px 1px #F04;
+     
+}
+span{
+    color: rgb(241, 18, 18);
+    size: 30px;
+}
+#para{
+    color: blueviolet;
+    display: inline-block;
+
+}
+ul li{
+    float: left;
+    margin: 30px;
+    color: oklch(54.551% 0.02476 196.588);
+    margin-right: 2px;
+    padding-left: 18px;
+
+}
+div{
+    width:3px ;
+    height: auto;
+    padding: 0px;
+    background-position: left;
+    
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+ol li{
+    
+    margin: 30px;
+    color: lab(13.06% -0.66 -0.99);
+    padding-left: 2px;
+}
+ 
