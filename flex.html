@@ -3,9 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>unit 3</title>
+    <style>
+       body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+       main{
+        width: 1200px;
+        height:880 ;
+        background-color: blanchedalmond;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       }
+       #hdr_top,#hdr,#container,#ftr{
+        background-color: rgb(234, 135, 166);
+        height: 150px;
+
+       }
+       #container{
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        text-align: center;
+        align-items: center;
+        line-height: 400px;
+       }
+       #left{
+        height: 300px;
+        width: 350px;
+        flex-grow: 1;
+        background-color: rgb(173, 235, 168);
+        margin: 2px;
+
+       }
+       #centre{
+        height: 300px;
+       
+        width: 350px;
+        flex-grow: 2;
+        background-color: rgb(232, 149, 149);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+       }
+       #centre_top{
+        flex-grow: 1;
+        background-color: rgb(221, 201, 135);
+        height: 30px;
+        width: 480px;
+        
+       }
+
+       #centre_middle{
+        flex-grow: 2;
+        height: 30px;
+        width: 480px;
+        background-color: rgb(212, 228, 159);
+       }
+       #centre_bottom{
+        flex-grow: 3;
+        height:30px ;
+        width: 480px;
+        background-color: rgb(186, 186, 247);
+
+       }
+       
+       #right{
+        height: 300px;
+        flex-grow: 3;
+        background-color: rgb(170, 249, 255);
+       }
+
+       
+       #hdr_top{
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        text-align: center;
+        align-items: center;
+        line-height: 150px;
+
+       }
+       #hdr_top_left{
+        height: 150px;
+        flex-grow: 1;
+        background-color: rgb(188, 142, 228);
+       }
+       #hdr_top_right{
+        flex-grow: 2;
+        background-color: rgb(229, 142, 203);
+
+       }
+       #ftr{
+        height: 150px;
+        background-color: aquamarine;
+        flex-grow: 1;
+       }
+    
+       
+    </style>
 </head>
 <body>
-    <h1>flex</h1>
+    
+  
+    <main>
+        <div id="hdr_top">
+            <div id="hdr_top_left">
+                <img height="180px" width="480px"  text_align="centre" src="https://logowik.com/content/uploads/images/kwality-walls-20035605.logowik.com.webp">
+            </div>
+            <div id="hdr_top_right">
+                <img height="250px" width="720px" src="https://img.restaurantguru.com/r481-food-Kwality-Walls-Frozen-Dessert-And-Ice-Cream-Shop-2021-09-1.jpg">
+            </div>
+        </div>
+        <div id="hdr"><h2> <i>Introduction</i></h2>
+            Kwality Wall's is an Indian multinational frozen desserts brand owned by the Indian consumer goods company Hindustan Unilever. It is a major producer and distributor of frozen dessert products in India, Bangladesh, Bhutan, Brunei, Myanmar, Nepal, Sri Lanka, Thailand, Singapore and Malaysia. In Pakistan and Bangladesh, it's known simply as "Wall's"
+         </div>
+        <div id="container"> 
+            
+            <div id="left">
+                <h2><b>History</b></h2>
+</div>
+               
+            <div id="centre">
+                <div id="centre_top">VLAVOUR  </div>
+                <div id="centre_middle">VARIETY  </div>
+                <div id="centre_bottom">INGRIDIENT </div>
+            </div>
+            <div id="right">
+                <h2><b>Contents</b></h2>
+            </div>
+        </div>
+        <div id="ftr"><h2><b>best ice cream..</b></h2></div>
+    </main>
+    
 </body>
-</html>
