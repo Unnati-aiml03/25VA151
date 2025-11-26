@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(181, 138, 219);
+    color: white;
+    margin: 30px;
+}
+.left{
+
+    color: blueviolet;
+}
+select{
+    background-color: rgb(199, 162, 231);
+}
+span{
+    color: blueviolet;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.right{
+    right: auto;
+    padding: 30px;
+    margin: 3px;
+}
+.container{
+    color: black;
+}
+
+
